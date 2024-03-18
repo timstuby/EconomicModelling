@@ -23,6 +23,7 @@ class Point:
                 :return:
                 """
         return self.__str__()
+    @property
     def distfromorigin(self):
         distsquared = (self.x)**2 + (self.y)**2
         dist = distsquared**0.5
