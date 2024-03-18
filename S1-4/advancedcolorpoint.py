@@ -1,5 +1,6 @@
 from inheritance import ColorPoint
 
+#the idea is to make x and y protected from being written after initialization
 class AdvancedColorPoint(ColorPoint):
     def __init__(self, x, y, color):
         self._x = x
